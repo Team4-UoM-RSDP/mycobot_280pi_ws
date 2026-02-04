@@ -60,7 +60,7 @@
         <joint name="link4_to_link5" value="0"/>
         <joint name="link5_to_link6" value="0"/>
         <joint name="link6_to_link6_flange" value="0"/>
-        <joint name="gripper_controller" value="0"/>
+        <joint name="gripper_controller" value="-0.50"/>
     </group_state>
 
     <group_state name="ready" group="arm_with_gripper">
