@@ -138,11 +138,15 @@
     <disable_collisions link1="gripper_left3" link2="gripper_left1" reason="Adjacent"/>
 
     <disable_collisions link1="gripper_right1" link2="gripper_left3" reason="Never"/>
+    <disable_collisions link1="gripper_right1" link2="gripper_left1" reason="Never"/>
 
     <disable_collisions link1="gripper_right2" link2="gripper_left1" reason="Never"/>
     <disable_collisions link1="gripper_right2" link2="gripper_left3" reason="Never"/>
+    <disable_collisions link1="gripper_right2" link2="gripper_right1" reason="Never"/>
 
-
-    <disable_collisions link1="gripper_right2" link2="gripper_right3" reason="Adjacent"/>
+    <disable_collisions link1="gripper_right3" link2="gripper_left1" reason="Never"/>
+    <disable_collisions link1="gripper_right3" link2="gripper_left3" reason="Never"/>
+    <disable_collisions link1="gripper_right3" link2="gripper_right1" reason="Adjacent"/>
+    <disable_collisions link1="gripper_right3" link2="gripper_right2" reason="Adjacent"/>
 
 </robot>
