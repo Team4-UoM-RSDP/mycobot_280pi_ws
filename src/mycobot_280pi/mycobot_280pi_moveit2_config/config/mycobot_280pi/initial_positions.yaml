@@ -6,4 +6,4 @@ initial_positions:
   link4_to_link5: 0.0
   link5_to_link6: 0.0
   link6_to_link6_flange: 0.0
-  gripper_controller: 0.0
+  gripper_controller: -0.50
